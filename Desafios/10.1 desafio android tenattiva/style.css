@@ -1,0 +1,50 @@
+@charset "utf-8";
+@font-face {
+    font-family: roboto;
+    src: url(fontes/Roboto/Roboto-Black.ttf ); format('truetype');
+    @import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">);
+    
+}
+header {
+   background-image: linear-gradient(to top,#174F31,#3CD681);
+   height: 174px;
+   margin: -6px -8px 0px -12px;
+}
+
+#cabeçalho {
+    text-align: center;
+    padding-top: 10px;
+}
+#cabeçalho > h1 {
+    color: white;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: bolder;
+    font-style: normal;
+    
+} 
+#cabeçalho > p {
+        color:#ffffff ;
+        font-size: 20px;
+    }
+nav >a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding-left: 21px;
+}   
+a:hover {
+    text-decoration: underline;
+    color: rgb(1, 185, 62);
+}
+main {
+    margin: 0 200px 0 200px;
+    background-color: white;
+    padding-top: 2px;
+    text-indent: 10PX;
+}
+body {
+    background-color: #84E1AD;
+}

@@ -1,0 +1,6 @@
+@charset "utf8";
+mark {background-color: rgb(101, 101, 194);font: 1em sans-serif;}
+h1 {color: blue;}
+h2 {color: dimgrey;}
+p {color: green;}
+body {background-color: darkorange;}
